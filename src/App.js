@@ -8,6 +8,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Login from "./Login";
 import Navbar from "./Navbar";
+import Dashboard from "./Dashboard";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/dashboard" component={Dashboard} />
           <Redirect to="/" />
         </Switch>
       </BrowserRouter>
