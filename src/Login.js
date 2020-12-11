@@ -46,6 +46,8 @@ class Login extends React.Component {
       <>
         <div className="my-5">
           <h1 className="text-center"> Login</h1>
+          <h6 className="text-center text-danger">Email Id: raj@gmail.com</h6>
+          <h6 className="text-center text-danger">password: 123</h6>
         </div>
         <div className="container contact_div">
           <div className="row">
